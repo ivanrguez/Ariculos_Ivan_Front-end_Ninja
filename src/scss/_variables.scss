@@ -1,0 +1,26 @@
+//tamaño de letra
+$letra-base: 18px;
+$letra-titulo-h1: $letra-base + 10px;
+$letra-titulo-h2: $letra-base + 8px;
+$letra-titulo-h3: $letra-base + 6px;
+$letra-titulo-h4: $letra-base + 4px;
+$letra-titulo-h5: $letra-base + 2px;
+$letra-menu: $letra-base + 5px;
+//colores
+$color-beyond-the-sea: #018F94;
+$color-certain-frogs: #C3FF68;
+$color-patience-grasshopper: #9AD849;
+$color-white: #FFFFFF;
+$color-foiled-candy: #89E4CE;
+
+$color-background: $color-white;
+$color-menu: $color-certain-frogs;
+$color-menu-hover: $color-patience-grasshopper;
+$color-letra-basico: black;
+$color-letra-menu-uno: $color-beyond-the-sea;
+$color-letra-menu-dos: $color-foiled-candy;
+
+// responsive breakpoints
+$large-screen-width: 1024px; // iPad en landscape o superior
+$medium-screen-width: 768px; // iPad portrait
+$small-screen-width: $medium-screen-width - 1; // smartphones

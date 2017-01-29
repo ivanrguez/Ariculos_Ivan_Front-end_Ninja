@@ -1,0 +1,34 @@
+.menu{
+	background-color: $color-menu;
+	width: 100%;
+	top: 0;
+	padding: 10px;
+    text-align: center;
+
+	.menu-lista{
+		list-style-type: none;
+	
+	
+
+		.categoria{
+		display: inline-block;
+		
+			.categoria-link{
+				text-decoration: none;
+				font-size: $letra-menu;
+   				padding: 27px;
+   				color: $color-letra-menu-uno;
+   					&:hover{
+   					color: $color-letra-menu-dos;
+   					background-color:$color-menu-hover;
+   					}
+			}
+			.buscar{
+				position: absolute;
+    			margin-top: 0px;
+    			margin-left: 7%;
+
+			}
+		}
+	}
+}
