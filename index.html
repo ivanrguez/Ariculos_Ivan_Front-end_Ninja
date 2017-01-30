@@ -1,52 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Articulos</title>
 	<meta charset="UTF-8">
+	<title>Articulos</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="dist/style.css">
+	<script src="src/js/menu-resposive.js"></script>
 </head>
 <body>
-
+<header>
+<div class="menu_bar">
+			<a href="#" class="bt-menu"></span>Menu</a>
+		</div>
 	<nav class="menu">
 		<ul class="menu-lista">
 			<li class="categoria active">
-				<a href="" class="categoria-link">cat1</a>
+				<a href="" class="categoria-link">Tecnologia</a>
 			</li>
 			<li class="categoria">
-				<a href="" class="categoria-link">cat2</a>
+				<a href="" class="categoria-link">Deportes</a>
 			</li>
 			<li class="categoria">
-				<a href="" class="categoria-link">cat3</a>
+				<a href="" class="categoria-link">Ocio</a>
 			</li>
 			<li class="categoria">
-				<a href="" class="categoria-link">cat4</a>
+				<a href="" class="categoria-link">Humor</a>
 			</li>
 			<li class="categoria">
-				<a href="" class="categoria-link">cat5</a>
+				<a href="" class="categoria-link">España</a>
 			</li>
 			<li class="categoria">
-				<a href="" class="categoria-link">cat6</a>
+				<a href="" class="categoria-link">Internacianal</a>
 			</li>
 			<li class="categoria">
 				<a href="" class="categoria-link">Acceso</a>
 			</li>
-			<div class="categoria">
+		</ul>
+		<div class="categoria">
 				<input class="buscar" type="search" name="buscar" placeholder="buscar">
 			</div>
-		</ul>
 	</nav>
+</header>
 <main class="lista-articulos">
 	<section>
-		<div class="articulos">
-			<h1 class="titulo">articulo1</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<a class="enlace-art" href="articulo.html" target="_blank">
+			<div class="articulos">
+				<h1 class="titulo">articulo1</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-		</div>
+			</div>
+		</a>
 	</section>
 	<section>
 		<div class="articulos">
@@ -121,14 +129,13 @@
 		</div>
 	</section>
 </main>
+<script src="src/js/index.js"></script>
+<script src="dist/main.js"></script>
+<footer class="footer">
 
-
-
-
-
-
-
-
-
+		
+		<div onclick="funcionLinkedin();" id="footer-img" class="title-img-footer"><p>Ivan rodrguez by developer</p></div>
+		
+		</footer>
 </body>
 </html>

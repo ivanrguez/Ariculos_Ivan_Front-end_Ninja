@@ -1,6 +1,10 @@
 .lista-articulos{
 	background-color: $color-background;
 
+	.enlace-art{
+		text-decoration: none;
+	}
+
 	.articulos{
 
 		.titulo{
