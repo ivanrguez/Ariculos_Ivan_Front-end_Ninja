@@ -44,18 +44,14 @@ var imagesConfig = {
     src: "src/img/*",
     dest: "./dist/img/",
     responsive: {
-        'disc-placeholder.jpg': [
+        '*.jpg': [
             {
                 width: 520,
                 rename: { suffix: '-520px' }
             },
             {
-                width: 320,
-                rename: { suffix: '-320px' }
-            },
-            {
-                width: 250,
-                rename: { suffix: '-250px' }
+                width: 285,
+                rename: { suffix: '-285px' }
             },
             {
                 width: 125,

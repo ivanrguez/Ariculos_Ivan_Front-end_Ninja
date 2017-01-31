@@ -23,16 +23,17 @@ body {
 .menu{
 	background-color: $color-menu;
 	top: 69px;
-	padding: 10px;
+	padding: 5px;
     text-align: center;
+
+    
 
 	.menu-lista{
 		list-style-type: none;
 	
-	
 
 		.categoria{
-		
+			display: inline;
 		
 			.categoria-link{
 				text-decoration: none;
